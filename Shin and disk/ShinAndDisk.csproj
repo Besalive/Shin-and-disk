@@ -167,6 +167,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Assert\Image\Logo.png" />
     <Content Include="Models\TiresCompany.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>TiresCompany.Context.cs</LastGenOutput>
@@ -181,5 +182,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

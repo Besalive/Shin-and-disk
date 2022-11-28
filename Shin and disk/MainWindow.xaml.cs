@@ -12,17 +12,23 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Shin_and_disk.Models;
 
-namespace Shin_and_disk
+namespace ShinAndDisk
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        Core bd = new Core();
+        List<Product> arrprod;
         public MainWindow()
         {
             InitializeComponent();
+            arrprod = bd.context.Product.ToList();
+            ServiceListView.ItemsSource = arrprod;
+
         }
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shin and disk", "Shin and disk\Shin and disk.csproj", "{0CF8CC06-0CE0-44B8-8C6A-DB2EB1EC7C6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShinAndDisk", "Shin and disk\ShinAndDisk.csproj", "{0CF8CC06-0CE0-44B8-8C6A-DB2EB1EC7C6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Shin_and_disk.Models
 {
-    class Core
+    public class Core
     {
-        TiresCompanyEntities context = new TiresCompanyEntities();
+        public TiresCompanyEntities context = new TiresCompanyEntities();
     }
 }
